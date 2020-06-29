@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #2F4F4F;
+  color: white;
+  background-image: url("../../images/ourteam.jpg");
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>
+
+TAZARA has modern cargo terminus, complete with gantry cranes and other handling facilities at New Kapiri Mposhi, Kasama, Makambako and Dar es Salaam stations.
+
+These facilities provide a quick and efficient means for exporters and importers from different regions of Africa to load and offload cargo onto and from TAZARA wagons. New Kapiri Mposhi handles cargo to and from the Southern and Central African regions, whilst Kasama covers the Great Lakes region. Similarly, Mbeya and Makambako cater for cargo from Malawi and some parts of the Great Lakes.
+
+With such spread of the TAZARA terminus, cargo is easily relayed from region to region. In addition, there is a privately owned trans-shipment facility at Kidatu that handles the transfer of cargo from the wider gauge (1,067mm) wagons of TAZARA onto the narrower gauge (1,000mm) wagons of the Tanzania Railways Limited (TRL) facilitating inter-connectivity amongst the regions of Southern, Central and East Africa
+</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Mabembe Ndulu</h2>
+        <p class="title">Administrator</p>
+        <p>
+          TCMS admin<br>
+          P.O. Box 40160, Dar es Salaam, Tanzania<br>
+          Tel: +255 22 286 4992<br>
+          Fax: +255 22 286 4992<br>
+          Email: admin@tazarasite.com<br>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Peter sichinga</h2>
+        <p class="title">Cargo Agent</p>
+        <p>
+          Cargo Agent manager<br>
+          P.O. BOX 2834<br>
+          Dar es Salaam, Tanzania<br>
+          Telephone +255 222 862412<br>
+          Mobile: +255 715 508 304<br>
+          E-mail: Peter.Sichinga@tazarasite.com<br>
+
+          sichingapeter2@gmail.com
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Mandele dahaso</h2>
+        <p class="title">Manager</p>
+        <p>
+          Mandele dahaso<br>
+          Tazara manager <br> 
+          TAZARA Head Office, Nyerere Road<br>
+          P.O. Box 2834, Dar es Salaam, Tanzania<br>
+          Tel: +255 739 998855 Fax: +255 222 862033<br>
+          Email: mdhq@tazarasite.com
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
